@@ -13,7 +13,9 @@ struct Focus_FlowApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let interactor = TaskInteractor(container: persistenceController.container)
+            let presenter = TaskPresenter(interactor: interactor)
+            TaskListView(presenter: presenter)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

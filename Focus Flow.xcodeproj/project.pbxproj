@@ -45,6 +45,16 @@
 			path = "Focus FlowUITests";
 			sourceTree = "<group>";
 		};
+		CEF7F3F42D51A26600A38C02 /* Modules */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CEF7F4122D51A42000A38C02 /* Persistence */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Persistence;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,8 @@
 		CEF7F3B92D51A22D00A38C02 = {
 			isa = PBXGroup;
 			children = (
+				CEF7F4122D51A42000A38C02 /* Persistence */,
+				CEF7F3F42D51A26600A38C02 /* Modules */,
 				CEF7F3C42D51A22D00A38C02 /* Focus Flow */,
 				CEF7F3DA2D51A23000A38C02 /* Focus FlowTests */,
 				CEF7F3E42D51A23000A38C02 /* Focus FlowUITests */,
@@ -109,6 +121,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				CEF7F3C42D51A22D00A38C02 /* Focus Flow */,
+				CEF7F3F42D51A26600A38C02 /* Modules */,
+				CEF7F4122D51A42000A38C02 /* Persistence */,
 			);
 			name = "Focus Flow";
 			packageProductDependencies = (
