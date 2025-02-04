@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CEF7F3D82D51A23000A38C02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF7F3BA2D51A22D00A38C02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF7F3C12D51A22D00A38C02;
+			remoteInfo = "Focus Flow";
+		};
+		CEF7F3E22D51A23000A38C02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF7F3BA2D51A22D00A38C02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF7F3C12D51A22D00A38C02;
+			remoteInfo = "Focus Flow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEF7F3C22D51A22D00A38C02 /* Focus Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Focus Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF7F3D72D51A23000A38C02 /* Focus FlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Focus FlowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF7F3E12D51A23000A38C02 /* Focus FlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Focus FlowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CEF7F3C42D51A22D00A38C02 /* Focus Flow */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Focus Flow";
+			sourceTree = "<group>";
+		};
+		CEF7F3DA2D51A23000A38C02 /* Focus FlowTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Focus FlowTests";
+			sourceTree = "<group>";
+		};
+		CEF7F3E42D51A23000A38C02 /* Focus FlowUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Focus FlowUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF7F3BF2D51A22D00A38C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF7F3D42D51A23000A38C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF7F3DE2D51A23000A38C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF7F3B92D51A22D00A38C02 = {
+			isa = PBXGroup;
+			children = (
+				CEF7F3C42D51A22D00A38C02 /* Focus Flow */,
+				CEF7F3DA2D51A23000A38C02 /* Focus FlowTests */,
+				CEF7F3E42D51A23000A38C02 /* Focus FlowUITests */,
+				CEF7F3C32D51A22D00A38C02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF7F3C32D51A22D00A38C02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF7F3C22D51A22D00A38C02 /* Focus Flow.app */,
+				CEF7F3D72D51A23000A38C02 /* Focus FlowTests.xctest */,
+				CEF7F3E12D51A23000A38C02 /* Focus FlowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF7F3C12D51A22D00A38C02 /* Focus Flow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF7F3EB2D51A23000A38C02 /* Build configuration list for PBXNativeTarget "Focus Flow" */;
+			buildPhases = (
+				CEF7F3BE2D51A22D00A38C02 /* Sources */,
+				CEF7F3BF2D51A22D00A38C02 /* Frameworks */,
+				CEF7F3C02D51A22D00A38C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CEF7F3C42D51A22D00A38C02 /* Focus Flow */,
+			);
+			name = "Focus Flow";
+			packageProductDependencies = (
+			);
+			productName = "Focus Flow";
+			productReference = CEF7F3C22D51A22D00A38C02 /* Focus Flow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF7F3D62D51A23000A38C02 /* Focus FlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF7F3EE2D51A23000A38C02 /* Build configuration list for PBXNativeTarget "Focus FlowTests" */;
+			buildPhases = (
+				CEF7F3D32D51A23000A38C02 /* Sources */,
+				CEF7F3D42D51A23000A38C02 /* Frameworks */,
+				CEF7F3D52D51A23000A38C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF7F3D92D51A23000A38C02 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEF7F3DA2D51A23000A38C02 /* Focus FlowTests */,
+			);
+			name = "Focus FlowTests";
+			packageProductDependencies = (
+			);
+			productName = "Focus FlowTests";
+			productReference = CEF7F3D72D51A23000A38C02 /* Focus FlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEF7F3E02D51A23000A38C02 /* Focus FlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF7F3F12D51A23000A38C02 /* Build configuration list for PBXNativeTarget "Focus FlowUITests" */;
+			buildPhases = (
+				CEF7F3DD2D51A23000A38C02 /* Sources */,
+				CEF7F3DE2D51A23000A38C02 /* Frameworks */,
+				CEF7F3DF2D51A23000A38C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF7F3E32D51A23000A38C02 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEF7F3E42D51A23000A38C02 /* Focus FlowUITests */,
+			);
+			name = "Focus FlowUITests";
+			packageProductDependencies = (
+			);
+			productName = "Focus FlowUITests";
+			productReference = CEF7F3E12D51A23000A38C02 /* Focus FlowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF7F3BA2D51A22D00A38C02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					CEF7F3C12D51A22D00A38C02 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					CEF7F3D62D51A23000A38C02 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CEF7F3C12D51A22D00A38C02;
+					};
+					CEF7F3E02D51A23000A38C02 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CEF7F3C12D51A22D00A38C02;
+					};
+				};
+			};
+			buildConfigurationList = CEF7F3BD2D51A22D00A38C02 /* Build configuration list for PBXProject "Focus Flow" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF7F3B92D51A22D00A38C02;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CEF7F3C32D51A22D00A38C02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF7F3C12D51A22D00A38C02 /* Focus Flow */,
+				CEF7F3D62D51A23000A38C02 /* Focus FlowTests */,
+				CEF7F3E02D51A23000A38C02 /* Focus FlowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF7F3C02D51A22D00A38C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF7F3D52D51A23000A38C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF7F3DF2D51A23000A38C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF7F3BE2D51A22D00A38C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF7F3D32D51A23000A38C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF7F3DD2D51A23000A38C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF7F3D92D51A23000A38C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF7F3C12D51A22D00A38C02 /* Focus Flow */;
+			targetProxy = CEF7F3D82D51A23000A38C02 /* PBXContainerItemProxy */;
+		};
+		CEF7F3E32D51A23000A38C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF7F3C12D51A22D00A38C02 /* Focus Flow */;
+			targetProxy = CEF7F3E22D51A23000A38C02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEF7F3E92D51A23000A38C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF7F3EA2D51A23000A38C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF7F3EC2D51A23000A38C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Focus Flow/Preview Content\"";
+				DEVELOPMENT_TEAM = 74N5377AUY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alekla0126.todo.Focus-Flow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF7F3ED2D51A23000A38C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Focus Flow/Preview Content\"";
+				DEVELOPMENT_TEAM = 74N5377AUY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alekla0126.todo.Focus-Flow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEF7F3EF2D51A23000A38C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74N5377AUY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alekla0126.todo.Focus-FlowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Focus Flow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Focus Flow";
+			};
+			name = Debug;
+		};
+		CEF7F3F02D51A23000A38C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74N5377AUY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alekla0126.todo.Focus-FlowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Focus Flow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Focus Flow";
+			};
+			name = Release;
+		};
+		CEF7F3F22D51A23000A38C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74N5377AUY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alekla0126.todo.Focus-FlowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Focus Flow";
+			};
+			name = Debug;
+		};
+		CEF7F3F32D51A23000A38C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74N5377AUY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alekla0126.todo.Focus-FlowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Focus Flow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF7F3BD2D51A22D00A38C02 /* Build configuration list for PBXProject "Focus Flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF7F3E92D51A23000A38C02 /* Debug */,
+				CEF7F3EA2D51A23000A38C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF7F3EB2D51A23000A38C02 /* Build configuration list for PBXNativeTarget "Focus Flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF7F3EC2D51A23000A38C02 /* Debug */,
+				CEF7F3ED2D51A23000A38C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF7F3EE2D51A23000A38C02 /* Build configuration list for PBXNativeTarget "Focus FlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF7F3EF2D51A23000A38C02 /* Debug */,
+				CEF7F3F02D51A23000A38C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF7F3F12D51A23000A38C02 /* Build configuration list for PBXNativeTarget "Focus FlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF7F3F22D51A23000A38C02 /* Debug */,
+				CEF7F3F32D51A23000A38C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF7F3BA2D51A22D00A38C02 /* Project object */;
+}
