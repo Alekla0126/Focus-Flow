@@ -1,6 +1,16 @@
 # 📝 Focus Flow - To-Do List App
 
-📌 **Focus Flow** is a sleek, minimalistic, and high-performance **To-Do List** app designed for seamless task management. Built with **SwiftUI, CoreData, and VIPER**, this app ensures smooth task handling without blocking the UI, even under heavy workloads.
+## Table of Contents
+1. [Features](#-features)
+2. [Screenshots](#-screenshots)
+3. [Tech Stack](#-tech-stack)
+4. [Getting Started](#-getting-started)
+5. [Project Structure](#-project-structure)
+6. [API Integration](#-api-integration)
+7. [Unit Testing](#-unit-testing)
+8. [To-Do List](#-to-do-list)
+9. [Author](#-author)
+10. [License](#-license)
 
 ---
 
