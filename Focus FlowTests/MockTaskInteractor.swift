@@ -9,32 +9,36 @@ import Foundation
 @testable import Focus_Flow
 
 class MockTaskInteractor: TaskInteractorProtocol {
-    var mockTasks: [TodoTask] = []
+    var mockTasks: [TodoTask] = [] // ✅ In-memory task storage
 
     func fetchTasks(completion: @escaping ([TodoTask]) -> Void) {
-        completion(mockTasks)
+        completion(mockTasks) // ✅ Simulates returning saved tasks
     }
 
     func saveTask(_ task: TodoTask, completion: @escaping () -> Void) {
         if let index = mockTasks.firstIndex(where: { $0.id == task.id }) {
-            mockTasks[index] = task
+            mockTasks[index] = task // ✅ Update task if it already exists
         } else {
-            mockTasks.append(task)
+            mockTasks.append(task) // ✅ Add new task
         }
         completion()
     }
 
     func deleteTask(_ task: TodoTask, completion: @escaping () -> Void) {
-        mockTasks.removeAll { $0.id == task.id }
+        mockTasks.removeAll { $0.id == task.id } // ✅ Remove task
         completion()
     }
 
     func loadTasksFromAPI(completion: @escaping () -> Void) {
-        let apiTasks = [
-            TodoTask(id: UUID(), title: "API Task 1", description: "From API", date: Date(), isCompleted: false),
-            TodoTask(id: UUID(), title: "API Task 2", description: "From API", date: Date(), isCompleted: true)
+        let fakeAPIResponse = [
+            TodoTask(id: UUID(), title: "Task 1", description: "Description 1", date: Date(), isCompleted: false),
+            TodoTask(id: UUID(), title: "Task 2", description: "Description 2", date: Date(), isCompleted: true)
         ]
-        mockTasks.append(contentsOf: apiTasks)
-        completion()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) { // ✅ Simulate network delay
+            self.mockTasks = fakeAPIResponse
+            completion()
+        }
     }
 }
+

@@ -55,12 +55,18 @@ class TaskPresenterTests: XCTestCase {
     }
 
     func testLoadTasksFromAPI() {
-        XCTAssertEqual(presenter.tasks.count, 0, "Initially tasks should be empty.")
-        
+        let expectation = XCTestExpectation(description: "Carga de tareas desde API")
+
+        XCTAssertEqual(presenter.tasks.count, 0, "Inicialmente las tareas deben estar vacías.")
+
         mockInteractor.loadTasksFromAPI {
-            self.presenter.loadTasks()
+            DispatchQueue.main.async {
+                self.presenter.loadTasks()
+                expectation.fulfill() // ✅ Se cumple la expectativa después de cargar los datos
+            }
         }
 
-        XCTAssertFalse(presenter.tasks.isEmpty, "Tasks should be loaded from API.")
+        wait(for: [expectation], timeout: 5.0) // ✅ Esperar hasta 5 segundos por la respuesta
+        XCTAssertFalse(presenter.tasks.isEmpty, "Las tareas deberían haberse cargado desde la API.")
     }
 }
